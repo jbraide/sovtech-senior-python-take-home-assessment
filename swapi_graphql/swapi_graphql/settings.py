@@ -42,7 +42,7 @@ INSTALLED_APPS = [
 
     # third party packages
     'graphene_django',
-    'rest_framework_simplejwt'
+    # 'rest_framework_simplejwt'
 ]
 
 MIDDLEWARE = [
@@ -134,8 +134,8 @@ GRAPHENE = {
     'SCHEMA': 'api.schema.schema',
 }
 
-REST_FRAMEWORK = {
-    'DEFAULT_AUTHENTICATION_CLASSES': (
-        'rest_framework_simplejwt.authentication.JWTAuthentication',
-    )
-}
+# REST_FRAMEWORK = {
+#     'DEFAULT_AUTHENTICATION_CLASSES': (
+#         'rest_framework_simplejwt.authentication.JWTAuthentication',
+#     )
+# }
