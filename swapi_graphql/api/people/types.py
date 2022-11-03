@@ -1,5 +1,4 @@
 from graphene_django.types import DjangoObjectType
-
 from api.models import Person
 
 class PersonType(DjangoObjectType):
