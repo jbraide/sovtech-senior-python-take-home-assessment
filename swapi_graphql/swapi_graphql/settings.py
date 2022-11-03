@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-%p*#ixbd$*$28sr^%!&+-uj4fp)oqc#1q)3+euz_p7g)j=oo1f
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['172.105.27.6', 'localhost', '127.0.0.1']
+ALLOWED_HOSTS = ['172.105.27.6', 'localhost', '127.0.0.1', 'a1tech.com.ng']
 
 
 # Application definition
@@ -42,6 +42,7 @@ INSTALLED_APPS = [
 
     # third party packages
     'graphene_django',
+    # 'django_filters',
     # 'rest_framework_simplejwt'
 ]
 
