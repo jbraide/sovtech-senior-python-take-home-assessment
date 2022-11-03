@@ -1,11 +1,20 @@
 aniso8601==9.0.1
 asgiref==3.5.2
+coverage==6.5.0
 Django==3.2.12
+django-filter==22.1
+djangorestframework==3.14.0
+djangorestframework-simplejwt==5.2.2
+Faker==12.0.1
 graphene==3.1.1
 graphene-django==3.0.0
+graphene-django-pagination @ git+https://github.com/instruct-br/graphene-django-pagination.git@e44c33c58dde1a61877c06ee404cdd099a12fca2
 graphql-core==3.2.3
 graphql-relay==3.2.0
+mixer==7.2.2
 promise==2.3
+PyJWT==2.6.0
+python-dateutil==2.8.2
 pytz==2022.4
 six==1.16.0
 sqlparse==0.4.3
